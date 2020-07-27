@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/avt01"
+    android:alpha="0.8"
+    android:padding="@dimen/_10sdp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:text="Order Food"
+        android:textColor="#06B10D"
+        android:textSize="@dimen/_40sdp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/edtUsrename"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@drawable/borderedt"
+        android:hint="Username"
+        android:paddingLeft="@dimen/_10sdp"
+        android:textColor="#FFFDFD"
+        android:textColorHint="#F4F6F4"
+        >
+
+    </EditText>
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="@drawable/borderedt"
+        android:hint="Password"
+        android:paddingLeft="@dimen/_10sdp"
+        android:textColor="#FFFDFD"
+        android:textColorHint="#F4F6F4">
+
+    </EditText>
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/borderbtn"
+        android:text="Login">
+
+    </Button>
+
+
+</LinearLayout>
